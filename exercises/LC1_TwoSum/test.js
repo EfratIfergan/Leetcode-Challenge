@@ -12,6 +12,4 @@ test("twoSum([3, 2, 4], 6) returns [1,2]", () => {
 });
 
 
-test("twoSum([3, 2, 4], 6) returns [1,2]", () => {
-  expect(twoSum([3, 2, 4], 6).sort((a, b) => (a < b ? -1 : 1))).toEqual([1, 2]);
-});
+
